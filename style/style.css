@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto+Slab&family=Water+Brush&display=swap');
+
+* {
+    /* Serif */
+    
+    /* Sans Serif */
+    font-family: 'Koulen', cursive;
+}
+
+h1, h2, h3, h4, h5 ,h6 {
+    font-family: 'Water Brush', cursive;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+#combo-example {
+    border: 1px solid black;
+}
+
+#combo-example p {
+    color: blue;
+}
+
+.combo-text {
+    color: blue;
+}
+
+.article {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.article > h3 {
+    background-color: blue;
+    font-weight:normal;
+    font-style: italic;
+}
+
+.article > p {
+    font-size: .6rem;
+}
+
+.article > p:nth-child(4n + 3) {
+    font-size: .6rem;
+    background-color: green;
+}
+
+
+.article > div {
+    border: 1px solid black;
+}
+
+.italic {
+    font-style:italic;
+    color: black;
+}
+
